@@ -21,7 +21,6 @@
     </android.support.design.widget.AppBarLayout>
 
 
-
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/fab"
         android:layout_width="wrap_content"
@@ -34,26 +33,26 @@
         android:id="@+id/editText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
         android:ems="10"
         android:hint="Number 1"
-        android:inputType="number"
-        android:layout_marginTop="120dp"/>
+        android:inputType="number" />
 
     <EditText
         android:id="@+id/editText2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="190dp"
         android:ems="10"
         android:hint="Number 2"
-        android:inputType="number"
-        android:layout_marginTop="190dp"/>
+        android:inputType="number" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:ems="10"
         android:layout_marginTop="60dp"
+        android:ems="10"
         android:inputType="textPersonName"
         android:text="Results" />
 
@@ -61,8 +60,29 @@
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Sum"
+        android:layout_marginTop="270dp"
         android:onClick="onButtonClick"
-        android:layout_marginTop="270dp"/>
+        android:text="Sum" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="320dp"
+        android:text="subtract" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="370dp"
+        android:text="multiply" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="420dp"
+        android:text="division" />
 
 </android.support.design.widget.CoordinatorLayout>

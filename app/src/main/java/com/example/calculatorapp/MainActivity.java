@@ -29,15 +29,43 @@ public class MainActivity extends AppCompatActivity {
 //            }
 //        });
     }
-    public void onButtonClick(View v){
-        EditText e1=(EditText)findViewById(R.id.editText);
-        EditText e2=(EditText)findViewById(R.id.editText2);
-        TextView t1=(TextView) findViewById(R.id.textView);
-        int num1= Integer.parseInt(e1.getText().toString());
-        int num2= Integer.parseInt(e2.getText().toString());
-        int sum= num1 + num2;
+    public void onButtonClick(View v) {
+        EditText e1 = (EditText) findViewById(R.id.editText);
+        EditText e2 = (EditText) findViewById(R.id.editText2);
+        TextView t1 = (TextView) findViewById(R.id.textView);
+        int num1 = Integer.parseInt(e1.getText().toString());
+        int num2 = Integer.parseInt(e2.getText().toString());
+        int sum = num1 + num2;
         t1.setText(Integer.toString(sum));
-    }
+
+        int multiply = num1 * num2;
+        t1.setText(Integer.toString(multiply));
+
+
+//
+//    public void onButtonClick(View v) {
+//        EditText e3=(EditText) findViewById(R.id.editText);
+//        EditText e4=(EditText) findViewById(R.id.editText2);
+//        TextView s1=(TextView) findViewById(R.id.editText);
+//        int num3=Integer.parseInt(e3.getText().)
+//
+//        }
+//
+////
+//
+//        public void onButtonClick(View v){
+//            EditText e1=(EditText)findViewById(R.id.editText);
+//            EditText e2=(EditText)findViewById(R.id.editText2);
+//            TextView t1=(TextView) findViewById(R.id.textView);
+//            int num1= Integer.parseInt(e1.getText().toString());
+//            int num2= Integer.parseInt(e2.getText().toString());
+//            int multiply= num1 * num2;
+//            t1.setText(Integer.toString(sum));
+//
+        }
+//
+
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
